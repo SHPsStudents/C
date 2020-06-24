@@ -1,4 +1,4 @@
-fname = 'mbox-short.txt'
+fname = input('Enter file name: ')
 try : file = open(fname)
 except : print('Enter file name properly')
 counts = dict()
